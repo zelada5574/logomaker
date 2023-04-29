@@ -17,12 +17,8 @@
     
     This project uses the following license: Unlicense. Please refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-## Questions
 
-    You can see my GitHub Profile at https://github.com/zelada5574.
-
-
-https://github.com/zelada5574/logomaker
 ![alt text](./Assets/images_videos/svgsample.PNG)
 ![alt text](./Assets/images_videos/inputs.PNG)
 https://drive.google.com/file/d/1DBJBmGlQTRND4XeeOA_q-dVKq22UMhln/view
+https://github.com/zelada5574/logomaker
