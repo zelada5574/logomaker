@@ -3,7 +3,7 @@ const fs = require("fs");
 const Shapes = require("./lib/shapes");
 const Circle = Shapes.Circle;
 const Triangle = Shapes.Triangle;
-const Rectangle = Shapes.Rectangle;
+const Square = Shapes.Square;
 
 inquirer
   .prompt([
@@ -21,7 +21,7 @@ inquirer
       name: "shape",
       message: "Whhich shape would you like your logo to be?",
       type: "list",
-      choices: ["Circle", "Triangle", "Rectangle"],
+      choices: ["Circle", "Triangle", "Square"],
     },
     {
       name: "shapeColor",
@@ -49,8 +49,8 @@ const fileGenerator = ({ text, textColor, shape, shapeColor }) => {
       newShape = new Triangle(text, textColor, shapeColor);
       break;
 
-    case "Rectangle":
-      newShape = new Rectangle(text, textColor, shapeColor);
+    case "Square":
+      newShape = new Square(text, textColor, shapeColor);
       break;
   }
 

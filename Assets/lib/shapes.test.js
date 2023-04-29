@@ -1,12 +1,12 @@
 const Shapes = require("./shapes");
 const Circle = Shapes.Circle;
 const Triangle = Shapes.Triangle;
-const Rectangle = Shapes.Rectangle;
+const Square = Shapes.Square;
 
 describe("Shapes", () => {
   describe("Add", () => {
     it("should take 3 parameters and display them properly on the triangle shape", () => {
-      const shape = new Triangle("SVG", "red", "darkblue");
+      const shape = new Triangle("GVS", "pink", "cyan");
       expect(shape.render())
         .toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 <polygon points="150,0 25,198 275,198" fill="darkblue" stroke="black" stroke-width="2"/>
@@ -14,7 +14,7 @@ describe("Shapes", () => {
 </svg>`);
     });
     it("should take 3 parameters and display them properly on the circle shape", () => {
-      const shape = new Circle("EG", "lightblue", "black");
+      const shape = new Circle("ILI", "green", "red");
       expect(shape.render())
         .toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 <circle cx="150" cy="100" r="98" fill="black" stroke="black" stroke-width="2"/>
@@ -22,7 +22,7 @@ describe("Shapes", () => {
 </svg>`);
     });
     it("should take 3 parameters and display them properly on the reactangle shape", () => {
-      const shape = new Rectangle("IT", "#000", "lightgreen");
+      const shape = new Square("KDI", "orange", "lightgreen");
       expect(shape.render())
         .toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 <rect x="50" y="25" width="200" height="150" fill="lightgreen" stroke="black" stroke-width="2"/>

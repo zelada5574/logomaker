@@ -26,7 +26,7 @@ class Triangle {
   }
 }
 
-class Rectangle {
+class Square {
   constructor(text, textColor, shapeColor) {
     this.text = text;
     this.textColor = textColor;
@@ -43,5 +43,5 @@ class Rectangle {
 module.exports = {
   Circle: Circle,
   Triangle: Triangle,
-  Rectangle: Rectangle,
+  Square: Square,
 };
